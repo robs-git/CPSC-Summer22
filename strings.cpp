@@ -27,7 +27,7 @@ int main () {
     string code;
 
     cout << "enter 3 digit code " << endl;
-    getline(cin,code); //takes code from uder input
+    getline(cin,code); //takes code from user input
 
     cout << "code before changing %: " << code << endl;
 
