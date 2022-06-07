@@ -13,7 +13,6 @@ int main () {
 
     cout << a << endl;
 
-
     cout << "length of string: " << a.length() << endl;
 
     cout << "find hello in string: " << a.find("hello")<< endl;
