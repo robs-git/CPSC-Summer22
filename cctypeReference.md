@@ -1,7 +1,7 @@
 ## cctype
 https://www.cplusplus.com/reference/cctype/
 
-'''
+```
 
 isalnum
     Check if character is alphanumeric (function )
@@ -39,7 +39,7 @@ isupper
 isxdigit
     Check if character is hexadecimal digit (function )
 
-'''
+```
 
 #### cctype video
 https://www.youtube.com/watch?v=sd6yrUJEF7Y
