@@ -1,5 +1,5 @@
 ##Strings
-
+https://www.cplusplus.com/reference/string/string/
 
 ##string into video
 https://www.youtube.com/watch?v=LuFRDp9kKZ4
