@@ -27,14 +27,14 @@ int main () {
     string code;
 
     cout << "enter 3 digit code " << endl;
-    getline(cin,code);
+    getline(cin,code); //takes code from uder input
 
     cout << "code before changing %: " << code << endl;
 
     cout << "code at 0 : " << code[0] << endl;
     cout << "code at 1 : " << code[1] << endl;
 
-
+    // checks the first character (at position 0) and second character (at position 1)
     for (int i = 0; i < 2; i++) {
         if (isalpha(code[i]))
             code[i] = '%';
