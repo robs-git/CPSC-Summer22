@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <cctype>
 
 
 using namespace std;
@@ -20,5 +21,28 @@ int main () {
     cout << "find string in string: " << a.find("string")<< endl;
 
     cout << "string at character 0: " << a[0]<< endl;
+
+
+
+    string code;
+
+    cout << "enter 3 digit code " << endl;
+    getline(cin,code);
+
+    cout << "code before changing %: " << code << endl;
+
+    cout << "code at 0 : " << code[0] << endl;
+    cout << "code at 1 : " << code[1] << endl;
+
+
+    for (int i = 0; i < 2; i++) {
+        if (isalpha(code[i]))
+            code[i] = '%';
+
+    }
+
+
+    cout << "code before changing %: " << code; 
+
 
 }
