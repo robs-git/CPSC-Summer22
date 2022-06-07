@@ -42,7 +42,7 @@ int main () {
     }
 
 
-    cout << "code before changing %: " << code; 
+    cout << "code after changing %: " << code; 
 
 
 }
