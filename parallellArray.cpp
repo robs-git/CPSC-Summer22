@@ -14,13 +14,12 @@ void sortScores(int intArray[], string stringArray[], int size);
 
 void printScores(int intArray[], string stringArray[], int size);
 
-const int MAX_SIZE = 200; //when updating arrays in functions, e.g., soritng, make sure to create a max size for arrays
 
 int main () {
 
     int size = 3;
-    int score[MAX_SIZE];
-    string name[MAX_SIZE];
+    int score[size];
+    string name[size];
 
     enterScores(score,name,size);
     sortScores(score,name,size);
